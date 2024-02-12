@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'oswald', sans-serif;
+}
+
+.header-section {
+    background-color: green;
+    display: flex;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+.header-section h1 {
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'oswald', sans-serif;
+    margin-left: 600px;
+    font-weight: bold;
+}
+
+/* .header-section .back-btn {
+    margin-left: 10px;
+}
+
+.header-section .back-btn a {
+    color: #fff;
+    background-color: purple;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    padding: 5px 19px;
+}
+
+.header-section .back-btn a:hover {
+    background-color: red;
+} */
+
+.header-section .logout-btn {
+    margin-left: 550px;
+}
+
+.header-section .logout-btn a {
+    /* margin-left: 400px; */
+    color: #fff;
+    background-color: red;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    padding: 5px 19px;
+}
+
+.header-section .logout-btn a:hover {
+    background-color: yellow;
+}
+
+.admin {
+    min-height: 601px;
+    margin-top: -100px;
+    background-color: lightgray;
+    /* margin-top: -200px;
+    min-height: 603px; */
+}
+
+.admin-login {
+    text-align: center;
+    /* margin-top: 200px;
+    min-height: 580px; */
+    margin-left: 450px;
+    width: 450px;
+    /* background-color: rgb(0,0,0,0.7); */
+    /* border: 1px solid rgb(0,0,0,0.7); */
+    align-items: center;
+    margin-top: 100px;
+    min-height: 320px;
+    padding-top: 70px;
+}
+
+.admin-login h2 {
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'oswald', sans-serif;
+    margin-top: 100px;
+}
+
+.admin-part {
+    margin-top: 20px;
+}
+
+.admin-part input {
+    padding: 3px 5px;
+    outline: none;
+    border: none;
+}
+
+.admin-login-btn {
+    margin-top: 10px;
+}
+
+.admin-login-btn a {
+    color: #fff;
+    background-color: green;
+    text-decoration: none;
+    border: none;
+    padding: 5px 19px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.admin-login-btn a:hover {
+    background-color: gray;
+}
+
+.content img {
+    width: 20%;
+}
+
+.content p {
+    font-size: 12px;
+}
